@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/l-0-l/Documents/GitHub/UnrealEngine/ColeteAsFrutas/Content/StarterContent/Particles/P_Ambient_Dust.uasset",
+				"C:/Users/l-0-l/Documents/GitHub/UnrealEngine/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset",
+				"C:/Users/l-0-l/Documents/GitHub/UnrealEngine/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset",
+				"C:/Users/l-0-l/Documents/GitHub/UnrealEngine/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset",
+				"C:/Users/l-0-l/Documents/GitHub/UnrealEngine/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/62/5RXGX6TPV7IPAZGJP1Q7RD.uasset",
+				"C:/Users/l-0-l/Documents/GitHub/UnrealEngine/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/49/KKMGPPQ9NXEZYIFXLTGSI0.uasset",
+				"C:/Users/l-0-l/Documents/GitHub/UnrealEngine/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/H5/YNLTNSZLJVB7YY208RS8Z5.uasset",
+				"C:/Users/l-0-l/Documents/GitHub/UnrealEngine/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/4Q/BA5XPTW5VC1Y36ZXZHIZ6N.uasset"
+			]
+		}
+	]
+}
