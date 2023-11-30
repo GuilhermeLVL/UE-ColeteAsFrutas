@@ -2286,3 +2286,126 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.30-01.01.36:764][843]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
 [2023.11.30-01.01.37:117][843]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
 [2023.11.30-01.01.37:770][902]LogViewport: Scene viewport resized to 242x266, mode Windowed.
+[2023.11.30-01.02.41:122][162]LogSlate: Window 'Mat_Banana' being destroyed
+[2023.11.30-01.02.41:125][162]LogSlate: Window 'Mat_Banana' being destroyed
+[2023.11.30-01.02.41:136][162]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-01.02.41:136][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.02.51:910][429]LogContentBrowser: Attempting asset rename: Mat_Banana -> Mat_BananaMetalica
+[2023.11.30-01.02.51:942][429]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.30-01.02.52:745][429]LogSavePackage: Moving output files for package: /Game/MyGame/Materials/Mat_BananaMetalica
+[2023.11.30-01.02.52:745][429]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/Mat_BananaMetalica2D6AA3FD47F37F984BD437A7CD49E79F.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/MyGame/Materials/Mat_BananaMetalica.uasset'
+[2023.11.30-01.02.52:749][429]LogFileHelpers: InternalPromptForCheckoutAndSave took 806 ms (total: 1.76 sec)
+[2023.11.30-01.02.52:756][429]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.11.30-01.02.52:761][429]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.11.30-01.02.52:764][429]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.11.30-01.02.52:765][429]AssetCheck: New page: Asset Save: Mat_BananaMetalica
+[2023.11.30-01.02.52:765][429]LogContentValidation: Display: Validating /Script/Engine.Material /Game/MyGame/Materials/Mat_BananaMetalica.Mat_BananaMetalica
+[2023.11.30-01.03.15:393][ 97]Cmd: TRANSACTION UNDO
+[2023.11.30-01.03.15:393][ 97]LogEditorTransaction: Undo Replace component used material
+[2023.11.30-01.03.18:114][376]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/MyGame/Meshs/banana.banana
+[2023.11.30-01.03.18:151][376]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-01.03.18:151][376]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.30-01.03.18:624][376]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2023.11.30-01.03.20:870][529]LogSlate: Window 'banana' being destroyed
+[2023.11.30-01.03.20:873][529]LogSlate: Window 'banana' being destroyed
+[2023.11.30-01.03.20:903][529]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-01.03.20:903][529]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.03.33:857][ 45]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-01.03.33:857][ 45]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.30-01.03.33:862][ 45]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-01.03.33:862][ 45]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.30-01.03.34:293][ 45]LogViewport: Scene viewport resized to 492x538, mode Windowed.
+[2023.11.30-01.03.34:320][ 45]LogViewport: Scene viewport resized to 492x538, mode Windowed.
+[2023.11.30-01.03.48:430][161]LogSlate: Window 'UV: banana' being destroyed
+[2023.11.30-01.03.48:432][161]LogSlate: Window 'UV: banana' being destroyed
+[2023.11.30-01.03.48:433][161]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-01.03.48:433][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.03.48:434][161]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-01.03.48:434][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.04.01:976][771]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/MyGame/Meshs/banana.banana
+[2023.11.30-01.04.01:998][771]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-01.04.01:998][771]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.30-01.04.02:367][771]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2023.11.30-01.06.29:891][582]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.30-01.06.29:927][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGame/Meshs/banana" FILE="C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/MyGame/Meshs/banana.uasset" SILENT=true
+[2023.11.30-01.06.29:930][582]LogSavePackage: Moving output files for package: /Game/MyGame/Meshs/banana
+[2023.11.30-01.06.29:930][582]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/banana9935820049C8F219C0A74A8AF01BF93A.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/MyGame/Meshs/banana.uasset'
+[2023.11.30-01.06.29:934][582]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 1.80 sec)
+[2023.11.30-01.06.29:935][582]AssetCheck: New page: Asset Save: banana
+[2023.11.30-01.06.29:935][582]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/MyGame/Meshs/banana.banana
+[2023.11.30-01.06.31:914][759]LogSlate: Window 'banana' being destroyed
+[2023.11.30-01.06.31:917][759]LogSlate: Window 'banana' being destroyed
+[2023.11.30-01.06.31:947][759]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-01.06.31:947][759]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.06.34:107][996]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/MyGame/Meshs/banana.banana
+[2023.11.30-01.06.34:107][996]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/MyGame/Meshs/banana.banana
+[2023.11.30-01.06.34:107][996]LogActorFactory: Actor Factory spawned StaticMesh /Game/MyGame/Meshs/banana.banana as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_29
+[2023.11.30-01.06.34:281][ 15]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/MyGame/Meshs/banana.banana
+[2023.11.30-01.06.34:281][ 15]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/MyGame/Meshs/banana.banana
+[2023.11.30-01.06.34:283][ 15]LogActorFactory: Actor Factory spawned StaticMesh /Game/MyGame/Meshs/banana.banana as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCB23C101_2106841131
+[2023.11.30-01.06.35:233][107]Cmd: TRANSACTION UNDO
+[2023.11.30-01.06.35:233][107]LogEditorTransaction: Undo Create Actors
+[2023.11.30-01.06.48:868][787]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.30-01.06.48:876][787]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.11.30-01.06.48:876][787]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.11.30-01.06.48:879][787]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms
+[2023.11.30-01.06.48:881][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.30-01.06.48:892][787]PIE: New page: PIE session: ThirdPersonMap (29 de nov de 2023 19:06:48)
+[2023.11.30-01.06.48:895][787]LogPlayLevel: Display: Creating online subsystem for client :Context_11
+[2023.11.30-01.06.48:896][787]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.11.30-01.06.48:915][788]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.30-01.06.48:920][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004947s)
+[2023.11.30-01.06.48:920][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004988s)
+[2023.11.30-01.06.48:925][788]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.11.30-01.06.48:932][788]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-01.06.48:932][788]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.30-01.06.48:932][788]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.11.30-01.06.48:932][788]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.11.30-01.06.48:932][788]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.11.30-01.06.48:932][788]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.11.30-01.06.48:933][788]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.11.30-01.06.48:933][788]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.11.30-01.06.48:933][788]LogWorldPartition: Display: WorldPartition initialize took 973 us (total: 203 ms)
+[2023.11.30-01.06.48:933][788]LogPlayLevel: PIE: World Init took: (0.001833s)
+[2023.11.30-01.06.48:934][788]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.11.30-01.06.48:934][788]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.30-01.06.48:934][788]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.30-01.06.48:934][788]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.30-01.06.48:934][788]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.30-01.06.48:934][788]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.30-01.06.48:934][788]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.30-01.06.48:934][788]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.30-01.06.48:934][788]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.30-01.06.48:934][788]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.30-01.06.48:934][788]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.30-01.06.48:934][788]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.30-01.06.48:936][788]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.30-01.06.48:957][788]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek High Definition Audio)
+[2023.11.30-01.06.48:957][788]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.30-01.06.48:957][788]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.30-01.06.48:957][788]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.30-01.06.48:958][788]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.11.30-01.06.48:958][788]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=2
+[2023.11.30-01.06.48:959][788]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.11.30-01.06.48:959][788]LogInit: FAudioDevice initialized with ID 2.
+[2023.11.30-01.06.48:959][788]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2023.11.30-01.06.48:959][788]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.11.30-01.06.48:959][788]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.11.30-01.06.48:966][788]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.11.30-01.06.48:967][788]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.11.29-22.06.48
+[2023.11.30-01.06.48:969][788]LogWorld: Bringing up level for play took: 0.002928
+[2023.11.30-01.06.49:050][788]PIE: Server logged in
+[2023.11.30-01.06.49:051][788]PIE: Play in editor total start time 0,175 seconds.
+[2023.11.30-01.08.09:629][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.08.09:629][428]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.30-01.08.09:629][428]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-01.08.09:629][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.08.09:630][428]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.11.30-01.08.09:633][428]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.30-01.08.09:634][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.08.09:638][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.08.09:638][428]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.11.30-01.08.09:639][428]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.11.30-01.08.09:640][428]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.11.30-01.08.09:647][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.11.30-01.08.09:706][429]LogPlayLevel: Display: Destroying online subsystem :Context_11
