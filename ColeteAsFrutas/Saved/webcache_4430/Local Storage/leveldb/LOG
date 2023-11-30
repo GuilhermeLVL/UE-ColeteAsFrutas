@@ -1,2 +1,3 @@
-2023/11/28-21:22:07.541 1398 Creating DB C:/Users/l-0-l/Documents/GitHub/UnrealEngine/ColeteAsFrutas/Saved/webcache_4430\Local Storage\leveldb since it was missing.
-2023/11/28-21:22:07.667 1398 Reusing MANIFEST C:/Users/l-0-l/Documents/GitHub/UnrealEngine/ColeteAsFrutas/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2023/11/29-21:35:03.906 2f20 Reusing MANIFEST C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2023/11/29-21:35:03.910 2f20 Recovering log #3
+2023/11/29-21:35:03.912 2f20 Reusing old log C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/webcache_4430\Local Storage\leveldb/000003.log 
