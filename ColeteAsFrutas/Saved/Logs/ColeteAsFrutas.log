@@ -27929,3 +27929,58 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.01-01.30.51:613][133]LogPlayLevel: Display: Destroying online subsystem :Context_30
 [2023.12.01-01.31.14:562][272]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
 [2023.12.01-01.31.14:562][272]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2023.12.01-01.31.56:950][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.12.01-01.31.56:955][104]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.01-01.31.57:007][104]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.12.01-01.31.57:013][104]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.12.01-01.31.57:014][104]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/ThirdPersonMapB8CF9F4B4C83EADDF363CCB1D4262840.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/ThirdPerson/Maps/ThirdPersonMap.umap'
+[2023.12.01-01.31.57:022][104]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QY/HRF2RP4Z1DFL30O88TJXLT
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/MY/TGB0NOUIZ7OTJJVNTWTF60
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/WW/RSXS6WLFEQP3U58BVFBXMN
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/4C/9JAD5S8RLM4M6E57BMHEZJ
+[2023.12.01-01.31.57:022][104]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.01-01.31.57:023][104]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO
+[2023.12.01-01.31.57:024][104]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/NB37RT5Q32Z8MJWD8BD2SOE0BEB0064430B2E104A8A1AECC69444C.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset'
+[2023.12.01-01.31.57:026][104]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QY/HRF2RP4Z1DFL30O88TJXLT
+[2023.12.01-01.31.57:026][104]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/HRF2RP4Z1DFL30O88TJXLT5DC04F3A4CFA38BBE222A0BE7AFCCB79.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QY/HRF2RP4Z1DFL30O88TJXLT.uasset'
+[2023.12.01-01.31.57:029][104]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/MY/TGB0NOUIZ7OTJJVNTWTF60
+[2023.12.01-01.31.57:029][104]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/TGB0NOUIZ7OTJJVNTWTF602198DF8B40AEEE5934262DB1C8E5CA3E.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/MY/TGB0NOUIZ7OTJJVNTWTF60.uasset'
+[2023.12.01-01.31.57:031][104]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/WW/RSXS6WLFEQP3U58BVFBXMN
+[2023.12.01-01.31.57:031][104]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/RSXS6WLFEQP3U58BVFBXMN1C222D244ACDB70EA355938BCACEEB60.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/WW/RSXS6WLFEQP3U58BVFBXMN.uasset'
+[2023.12.01-01.31.57:033][104]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/4C/9JAD5S8RLM4M6E57BMHEZJ
+[2023.12.01-01.31.57:033][104]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/9JAD5S8RLM4M6E57BMHEZJ29CD21C84B73284F5BB83BA4DA995323.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/4C/9JAD5S8RLM4M6E57BMHEZJ.uasset'
+[2023.12.01-01.31.57:034][104]LogFileHelpers: InternalPromptForCheckoutAndSave took 12 ms (total: 318 ms)
+[2023.12.01-01.31.57:035][104]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QY/HRF2RP4Z1DFL30O88TJXLT
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/MY/TGB0NOUIZ7OTJJVNTWTF60
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/WW/RSXS6WLFEQP3U58BVFBXMN
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/4C/9JAD5S8RLM4M6E57BMHEZJ
+[2023.12.01-01.31.57:035][104]LogFileHelpers: Saving map 'ThirdPersonMap' took 0.062
+[2023.12.01-01.31.57:036][104]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO
+[2023.12.01-01.31.57:037][104]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/NB37RT5Q32Z8MJWD8BD2SO32685F274C6F08958E9431ACE33CB91A.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset'
+[2023.12.01-01.31.57:039][104]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QY/HRF2RP4Z1DFL30O88TJXLT
+[2023.12.01-01.31.57:039][104]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/HRF2RP4Z1DFL30O88TJXLT6639006244C18D300A0A5A8D27965D38.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QY/HRF2RP4Z1DFL30O88TJXLT.uasset'
+[2023.12.01-01.31.57:041][104]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/MY/TGB0NOUIZ7OTJJVNTWTF60
+[2023.12.01-01.31.57:041][104]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/TGB0NOUIZ7OTJJVNTWTF60BEFF604F4592750E0F6C1E8A65CD6017.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/MY/TGB0NOUIZ7OTJJVNTWTF60.uasset'
+[2023.12.01-01.31.57:043][104]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/WW/RSXS6WLFEQP3U58BVFBXMN
+[2023.12.01-01.31.57:043][104]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/RSXS6WLFEQP3U58BVFBXMN622E9319430CEA5F69BAA890C25B95BD.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/WW/RSXS6WLFEQP3U58BVFBXMN.uasset'
+[2023.12.01-01.31.57:045][104]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/4C/9JAD5S8RLM4M6E57BMHEZJ
+[2023.12.01-01.31.57:045][104]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/9JAD5S8RLM4M6E57BMHEZJF7802EFE432956DC8E6936B5E853636E.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/4C/9JAD5S8RLM4M6E57BMHEZJ.uasset'
+[2023.12.01-01.31.57:049][104]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode
+[2023.12.01-01.31.57:050][104]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/BP_ThirdPersonGameMode2AD0AFBA45A31DF21A49B189CC3EFCFA.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset'
+[2023.12.01-01.31.57:061][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGame/Blueprints/BP_Banana" FILE="C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/MyGame/Blueprints/BP_Banana.uasset" SILENT=true
+[2023.12.01-01.31.57:067][104]LogSavePackage: Moving output files for package: /Game/MyGame/Blueprints/BP_Banana
+[2023.12.01-01.31.57:067][104]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/BP_BananaB6E4E4FD4007F1A4F463B4A26E91AC4E.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/MyGame/Blueprints/BP_Banana.uasset'
+[2023.12.01-01.31.57:072][104]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 435 ms)
+[2023.12.01-01.31.57:077][104]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.01-01.31.57:077][104]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2023.12.01-01.31.57:077][104]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.TextRenderActor_1
+[2023.12.01-01.31.57:077][104]LogContentValidation: Display: Validating /Game/MyGame/Blueprints/BP_Banana.BP_Banana_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Banana_C_UAID_00E269643BCB75C101_1328793562
+[2023.12.01-01.31.57:077][104]LogContentValidation: Display: Validating /Game/MyGame/Blueprints/BP_Banana.BP_Banana_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Banana_C_UAID_00E269643BCB75C101_1330541563
+[2023.12.01-01.31.57:077][104]LogContentValidation: Display: Validating /Game/MyGame/Blueprints/BP_Banana.BP_Banana_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Banana_C_UAID_00E269643BCB75C101_1312871560
+[2023.12.01-01.31.57:077][104]LogContentValidation: Display: Validating /Game/MyGame/Blueprints/BP_Banana.BP_Banana_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Banana_C_UAID_00E269643BCB75C101_1327871561
+[2023.12.01-01.31.57:077][104]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
+[2023.12.01-01.31.57:077][104]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyGame/Blueprints/BP_Banana.BP_Banana
