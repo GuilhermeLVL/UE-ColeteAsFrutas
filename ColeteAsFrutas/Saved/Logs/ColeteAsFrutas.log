@@ -1378,3 +1378,108 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.30-23.56.01:071][  1]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2023.11.30-23.56.01:084][  1]LogD3D12RHI: Cannot end block when stack is empty
 [2023.11.30-23.56.05:069][ 13]LogViewport: Scene viewport resized to 1526x584, mode Windowed.
+[2023.11.30-23.56.17:451][401]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-23.56.18:848][560]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/MyGame/Meshs/barril.barril
+[2023.11.30-23.56.18:870][560]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-23.56.18:870][560]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.30-23.56.19:345][560]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2023.11.30-23.56.20:757][671]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.11.30-23.57.58:983][243]LogDerivedDataCache: C:/Users/l-0-l/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.062 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2606 files in 3756 folders with total size 99 MiB.
+[2023.12.01-00.01.08:356][522]LogEditorFactories: Performing atomic reimport of [C:/Users/l-0-l/Desktop/Objetos/Barril/barril.fbx]
+[2023.12.01-00.01.08:418][522]LogFbx: Loading FBX Scene from C:/Users/l-0-l/Desktop/Objetos/Barril/barril.fbx
+[2023.12.01-00.01.08:444][522]LogFbx: FBX Scene Loaded Succesfully
+[2023.12.01-00.01.08:517][522]LogFbx: Display: Triangulating static mesh Cylinder
+[2023.12.01-00.01.08:570][522]LogEditorFactories: -- imported successfully
+[2023.12.01-00.01.08:573][522]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.12.01-00.01.45:976][761]LogEditorFactories: Performing atomic reimport of [C:/Users/l-0-l/Desktop/Objetos/Barril/barril.fbx]
+[2023.12.01-00.01.45:981][761]LogFbx: Loading FBX Scene from C:/Users/l-0-l/Desktop/Objetos/Barril/barril.fbx
+[2023.12.01-00.01.45:985][761]LogFbx: FBX Scene Loaded Succesfully
+[2023.12.01-00.01.46:013][761]LogFbx: Display: Triangulating static mesh Cylinder
+[2023.12.01-00.01.46:028][761]LogEditorFactories: -- imported successfully
+[2023.12.01-00.01.46:029][761]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.12.01-00.02.46:312][500]LogEditorFactories: Performing atomic reimport of [C:/Users/l-0-l/Desktop/Objetos/Barril/barril.fbx]
+[2023.12.01-00.02.46:317][500]LogFbx: Loading FBX Scene from C:/Users/l-0-l/Desktop/Objetos/Barril/barril.fbx
+[2023.12.01-00.02.46:321][500]LogFbx: FBX Scene Loaded Succesfully
+[2023.12.01-00.02.46:344][500]LogFbx: Display: Triangulating static mesh Cylinder
+[2023.12.01-00.02.46:358][500]LogEditorFactories: -- imported successfully
+[2023.12.01-00.02.46:358][500]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.12.01-00.03.32:856][199]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.01-00.03.32:885][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGame/Meshs/barril" FILE="C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/MyGame/Meshs/barril.uasset" SILENT=true
+[2023.12.01-00.03.32:903][199]LogPackageLocalizationCache: Processed 46 localized package path(s) for 2 prioritized culture(s) in 0.007274 seconds
+[2023.12.01-00.03.32:942][199]LogSavePackage: Moving output files for package: /Game/MyGame/Meshs/barril
+[2023.12.01-00.03.32:942][199]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/barril61AC9A544036AA1798F97686613F6A2F.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/MyGame/Meshs/barril.uasset'
+[2023.12.01-00.03.32:954][199]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms
+[2023.12.01-00.03.32:957][199]AssetCheck: New page: Asset Save: barril
+[2023.12.01-00.03.32:958][199]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/MyGame/Meshs/barril.barril
+[2023.12.01-00.03.39:656][659]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2023.12.01-00.03.43:190][903]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.01-00.03.43:200][903]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.01-00.03.43:200][903]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.12.01-00.03.43:212][903]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 12 ms
+[2023.12.01-00.03.43:228][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.01-00.03.43:241][903]PIE: New page: PIE session: ThirdPersonMap (30 de nov de 2023 18:03:43)
+[2023.12.01-00.03.43:248][903]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.12.01-00.03.43:252][903]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2023.12.01-00.03.43:258][903]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.01-00.03.43:270][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012025s)
+[2023.12.01-00.03.43:270][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.012066s)
+[2023.12.01-00.03.43:276][903]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.12.01-00.03.43:285][903]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.01-00.03.43:287][903]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.01-00.03.43:287][903]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.12.01-00.03.43:289][903]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.01-00.03.43:289][903]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.01-00.03.43:289][903]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.01-00.03.43:291][903]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.01-00.03.43:293][903]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.12.01-00.03.43:293][903]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 66 ms)
+[2023.12.01-00.03.43:294][903]LogPlayLevel: PIE: World Init took: (0.009871s)
+[2023.12.01-00.03.43:298][903]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.12.01-00.03.43:298][903]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.01-00.03.43:298][903]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.01-00.03.43:298][903]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.01-00.03.43:298][903]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.01-00.03.43:298][903]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.01-00.03.43:299][903]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.01-00.03.43:299][903]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.01-00.03.43:299][903]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.01-00.03.43:299][903]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.01-00.03.43:299][903]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.01-00.03.43:299][903]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.01-00.03.43:300][903]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.01-00.03.43:321][903]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek High Definition Audio)
+[2023.12.01-00.03.43:321][903]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.01-00.03.43:321][903]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.01-00.03.43:321][903]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.01-00.03.43:322][903]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.12.01-00.03.43:322][903]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=2
+[2023.12.01-00.03.43:323][903]LogInit: FAudioDevice initialized with ID 2.
+[2023.12.01-00.03.43:323][903]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.12.01-00.03.43:323][903]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2023.12.01-00.03.43:323][903]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.12.01-00.03.43:323][903]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.12.01-00.03.43:345][903]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.12.01-00.03.43:351][903]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.11.30-21.03.43
+[2023.12.01-00.03.43:355][903]LogWorld: Bringing up level for play took: 0.006064
+[2023.12.01-00.03.43:359][903]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2023.12.01-00.03.43:663][903]PIE: Server logged in
+[2023.12.01-00.03.43:666][903]PIE: Play in editor total start time 0,47 seconds.
+[2023.12.01-00.04.23:373][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.01-00.04.23:373][635]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.01-00.04.23:375][635]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.01-00.04.23:377][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.01-00.04.23:378][635]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.12.01-00.04.23:387][635]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.01-00.04.23:392][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.01-00.04.23:397][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.01-00.04.23:397][635]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.12.01-00.04.23:397][635]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.12.01-00.04.23:399][635]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.12.01-00.04.23:407][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.12.01-00.04.23:467][636]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.12.01-00.04.47:985][566]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.01-00.04.48:003][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/8L/JYP993FJHGAEGVL8MZZ8OS
+[2023.12.01-00.04.48:004][566]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/JYP993FJHGAEGVL8MZZ8OS3B2C19D14023D72A78DCD193FFDECA68.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/8L/JYP993FJHGAEGVL8MZZ8OS.uasset'
+[2023.12.01-00.04.48:014][566]LogFileHelpers: InternalPromptForCheckoutAndSave took 29 ms (total: 127 ms)
+[2023.12.01-00.04.48:015][566]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_00E269643BCB22C101_1780550951
+[2023.12.01-00.04.48:015][566]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCB22C101_1780550951
