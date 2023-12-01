@@ -2214,3 +2214,25 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.01-00.30.30:100][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.12.01-00.30.30:103][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
 [2023.12.01-00.30.30:181][576]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.12.01-00.32.21:874][111]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.01-00.32.21:911][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGame/Blueprints/BP_Banana" FILE="C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/MyGame/Blueprints/BP_Banana.uasset" SILENT=true
+[2023.12.01-00.32.21:916][111]LogSavePackage: Moving output files for package: /Game/MyGame/Blueprints/BP_Banana
+[2023.12.01-00.32.21:916][111]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/BP_BananaEE9DAC4D4F69DBAEDE51B2BD240F325B.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/MyGame/Blueprints/BP_Banana.uasset'
+[2023.12.01-00.32.21:922][111]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 175 ms)
+[2023.12.01-00.32.21:922][111]AssetCheck: New page: Asset Save: BP_Banana
+[2023.12.01-00.32.21:922][111]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyGame/Blueprints/BP_Banana.BP_Banana
+[2023.12.01-00.32.25:406][436]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.01-00.32.25:448][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGame/Meshs/barril" FILE="C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/MyGame/Meshs/barril.uasset" SILENT=true
+[2023.12.01-00.32.25:450][436]LogSavePackage: Moving output files for package: /Game/MyGame/Meshs/barril
+[2023.12.01-00.32.25:451][436]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/barrilDBC56B034E7353D8D16B409BEF2EBE02.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/MyGame/Meshs/barril.uasset'
+[2023.12.01-00.32.25:454][436]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 223 ms)
+[2023.12.01-00.32.25:457][436]AssetCheck: New page: Asset Save: barril
+[2023.12.01-00.32.25:457][436]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/MyGame/Meshs/barril.barril
+[2023.12.01-00.32.26:101][476]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2023.12.01-00.32.28:413][627]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.01-00.32.28:449][627]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/PR/062I7NCUJ7ML9B9MRWJHXY
+[2023.12.01-00.32.28:450][627]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/062I7NCUJ7ML9B9MRWJHXY64F9E4D844AB5E8E2A39FDBE7E86C2E5.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/PR/062I7NCUJ7ML9B9MRWJHXY.uasset'
+[2023.12.01-00.32.28:455][627]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 265 ms)
+[2023.12.01-00.32.28:456][627]AssetCheck: New page: Asset Save: BP_Banana_C_UAID_00E269643BCB71C101_1560489855
+[2023.12.01-00.32.28:456][627]LogContentValidation: Display: Validating /Game/MyGame/Blueprints/BP_Banana.BP_Banana_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Banana_C_UAID_00E269643BCB71C101_1560489855
+[2023.12.01-00.32.35:574][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
