@@ -27211,3 +27211,721 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.01-01.26.41:205][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
 [2023.12.01-01.26.41:211][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
 [2023.12.01-01.26.41:257][ 20]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.12.01-01.28.04:218][374]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.01-01.28.04:222][374]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.01-01.28.04:222][374]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.12.01-01.28.04:225][374]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 43 ms)
+[2023.12.01-01.28.04:225][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.01-01.28.04:225][374]PIE: New page: PIE session: ThirdPersonMap (30 de nov de 2023 19:28:04)
+[2023.12.01-01.28.04:249][374]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.01-01.28.04:253][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004010s)
+[2023.12.01-01.28.04:253][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004040s)
+[2023.12.01-01.28.04:265][374]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.12.01-01.28.04:268][374]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.01-01.28.04:268][374]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.01-01.28.04:268][374]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.12.01-01.28.04:269][374]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.01-01.28.04:269][374]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.01-01.28.04:269][374]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.01-01.28.04:269][374]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.01-01.28.04:270][374]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.12.01-01.28.04:270][374]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 85 ms)
+[2023.12.01-01.28.04:270][374]LogPlayLevel: PIE: World Init took: (0.002082s)
+[2023.12.01-01.28.04:270][374]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.12.01-01.28.04:270][374]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.01-01.28.04:270][374]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.01-01.28.04:270][374]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.01-01.28.04:270][374]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.01-01.28.04:270][374]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.01-01.28.04:270][374]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.01-01.28.04:270][374]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.01-01.28.04:270][374]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.01-01.28.04:270][374]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.01-01.28.04:270][374]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.01-01.28.04:270][374]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.01-01.28.04:272][374]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.01-01.28.04:292][374]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek High Definition Audio)
+[2023.12.01-01.28.04:292][374]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.01-01.28.04:292][374]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.01-01.28.04:292][374]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.01-01.28.04:293][374]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.12.01-01.28.04:293][374]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=20
+[2023.12.01-01.28.04:294][374]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.12.01-01.28.04:294][374]LogInit: FAudioDevice initialized with ID 20.
+[2023.12.01-01.28.04:294][374]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.12.01-01.28.04:294][374]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonMap'.
+[2023.12.01-01.28.04:294][374]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2023.12.01-01.28.04:296][374]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.12.01-01.28.04:298][374]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.11.30-22.28.04
+[2023.12.01-01.28.04:298][374]LogWorld: Bringing up level for play took: 0.001808
+[2023.12.01-01.28.04:299][374]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.12.01-01.28.04:303][374]PIE: Server logged in
+[2023.12.01-01.28.04:304][374]PIE: Play in editor total start time 0,081 seconds.
+[2023.12.01-01.28.15:449][708]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:458][709]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:466][710]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:474][711]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:483][712]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:491][713]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:499][714]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:508][715]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:516][716]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:524][717]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:533][718]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:541][719]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:549][720]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:558][721]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:566][722]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:574][723]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:583][724]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:591][725]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:599][726]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:608][727]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:616][728]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:624][729]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:633][730]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:641][731]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:649][732]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:658][733]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:666][734]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:674][735]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:683][736]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:691][737]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:699][738]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:708][739]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:716][740]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:724][741]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:733][742]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:741][743]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:749][744]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:758][745]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:766][746]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:774][747]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:783][748]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:791][749]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:799][750]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:808][751]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:816][752]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:825][753]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:833][754]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:842][755]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:850][756]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:858][757]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:867][758]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:875][759]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:883][760]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:891][761]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:900][762]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:908][763]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:917][764]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:925][765]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:933][766]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:942][767]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:950][768]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:958][769]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:967][770]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:975][771]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:983][772]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.15:992][773]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:000][774]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:008][775]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:016][776]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:025][777]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:033][778]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:042][779]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:050][780]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:058][781]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:067][782]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:075][783]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:083][784]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:092][785]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:100][786]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:109][787]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:117][788]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:125][789]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:134][790]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:142][791]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:150][792]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:158][793]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:167][794]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:175][795]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:184][796]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:192][797]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:200][798]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:208][799]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:217][800]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:225][801]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:233][802]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:242][803]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:250][804]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:258][805]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:267][806]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:275][807]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:284][808]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:292][809]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:300][810]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:308][811]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:316][812]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:324][813]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:333][814]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:341][815]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:349][816]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:358][817]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:366][818]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:374][819]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:383][820]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:391][821]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:399][822]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:408][823]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:416][824]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:424][825]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:433][826]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:441][827]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:449][828]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:458][829]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:466][830]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:474][831]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:483][832]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:491][833]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:499][834]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:508][835]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:516][836]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:524][837]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:533][838]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:541][839]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:549][840]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:558][841]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:566][842]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:574][843]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:583][844]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:591][845]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:600][846]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:608][847]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:616][848]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:624][849]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:633][850]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:641][851]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:649][852]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:658][853]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:666][854]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:675][855]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:683][856]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:691][857]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:700][858]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:708][859]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:716][860]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:724][861]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:733][862]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:741][863]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:749][864]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:758][865]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:766][866]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:774][867]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:783][868]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:791][869]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:800][870]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:808][871]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:817][872]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:825][873]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:833][874]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:842][875]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:850][876]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:858][877]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:867][878]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:875][879]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:883][880]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:892][881]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:900][882]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:908][883]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:917][884]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:925][885]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:934][886]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:942][887]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:950][888]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:958][889]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:967][890]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:975][891]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:983][892]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.16:992][893]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:000][894]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:008][895]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:017][896]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:025][897]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:033][898]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:042][899]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:050][900]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:058][901]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:067][902]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:075][903]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:083][904]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:092][905]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:100][906]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:108][907]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:117][908]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:125][909]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:133][910]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:142][911]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:150][912]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:158][913]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:167][914]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:175][915]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:183][916]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:192][917]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:200][918]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:208][919]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:217][920]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:225][921]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:233][922]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:242][923]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:250][924]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:258][925]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:267][926]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:275][927]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:283][928]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:292][929]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:300][930]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:308][931]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:316][932]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:324][933]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:333][934]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:341][935]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:349][936]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:358][937]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:366][938]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:374][939]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:383][940]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:391][941]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:399][942]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:408][943]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:416][944]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:424][945]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:433][946]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:441][947]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:449][948]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:458][949]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:466][950]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:474][951]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:483][952]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:491][953]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:500][954]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:508][955]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:516][956]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:524][957]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:533][958]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:541][959]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:550][960]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:558][961]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:566][962]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:575][963]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:583][964]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:591][965]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:600][966]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:608][967]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:616][968]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:625][969]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:633][970]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:641][971]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:650][972]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:658][973]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:666][974]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:674][975]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:683][976]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:691][977]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:699][978]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:708][979]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:716][980]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:724][981]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:733][982]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:741][983]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:749][984]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:758][985]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:766][986]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:774][987]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:783][988]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:791][989]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:799][990]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:808][991]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:816][992]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:825][993]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:833][994]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:842][995]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:850][996]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:858][997]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:866][998]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:875][999]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:883][  0]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:891][  1]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:900][  2]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:908][  3]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:916][  4]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:925][  5]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:933][  6]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:941][  7]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:950][  8]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:958][  9]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:967][ 10]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:975][ 11]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:983][ 12]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.17:992][ 13]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:000][ 14]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:008][ 15]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:016][ 16]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:025][ 17]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:033][ 18]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:041][ 19]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:050][ 20]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:058][ 21]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:067][ 22]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:075][ 23]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:083][ 24]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:091][ 25]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:100][ 26]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:108][ 27]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:117][ 28]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:125][ 29]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:133][ 30]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:142][ 31]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:150][ 32]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:158][ 33]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:167][ 34]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:175][ 35]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:183][ 36]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:192][ 37]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:200][ 38]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:208][ 39]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:217][ 40]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:225][ 41]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:234][ 42]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:242][ 43]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:250][ 44]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:259][ 45]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:267][ 46]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:275][ 47]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:284][ 48]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:292][ 49]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:300][ 50]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:308][ 51]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:316][ 52]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:325][ 53]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:333][ 54]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:342][ 55]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:350][ 56]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:358][ 57]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:366][ 58]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:375][ 59]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:383][ 60]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:391][ 61]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:400][ 62]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:408][ 63]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:416][ 64]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:425][ 65]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:433][ 66]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:441][ 67]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:450][ 68]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:458][ 69]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:467][ 70]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:475][ 71]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:483][ 72]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:491][ 73]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:500][ 74]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:508][ 75]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:516][ 76]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:524][ 77]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:533][ 78]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:541][ 79]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:549][ 80]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:558][ 81]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:566][ 82]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:574][ 83]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:583][ 84]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:591][ 85]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:599][ 86]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:608][ 87]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:616][ 88]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:624][ 89]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:633][ 90]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:641][ 91]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:649][ 92]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:658][ 93]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:666][ 94]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:674][ 95]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:683][ 96]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:691][ 97]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:699][ 98]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:708][ 99]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:716][100]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:724][101]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:733][102]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:741][103]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:749][104]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:758][105]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:766][106]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:774][107]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:783][108]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:791][109]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:799][110]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:808][111]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:816][112]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:825][113]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:833][114]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:842][115]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:850][116]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:858][117]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:867][118]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:875][119]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:883][120]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:892][121]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:900][122]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:909][123]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:917][124]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:925][125]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:934][126]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:942][127]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:950][128]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:959][129]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:967][130]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:975][131]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:983][132]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.18:992][133]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:000][134]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:008][135]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:016][136]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:025][137]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:033][138]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:041][139]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:050][140]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:058][141]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:066][142]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:075][143]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:083][144]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:091][145]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:100][146]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:108][147]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:116][148]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:125][149]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:133][150]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:141][151]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:150][152]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:158][153]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:166][154]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:175][155]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:183][156]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:192][157]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:200][158]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:208][159]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:217][160]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:225][161]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:233][162]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:242][163]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:250][164]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:258][165]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:267][166]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:275][167]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:283][168]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:292][169]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:300][170]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:308][171]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:317][172]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:325][173]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:333][174]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:342][175]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:350][176]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:358][177]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:367][178]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:375][179]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:383][180]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:392][181]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:400][182]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:408][183]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:416][184]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:425][185]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:433][186]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:441][187]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:450][188]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:458][189]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:466][190]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:475][191]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:483][192]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:491][193]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:500][194]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:508][195]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:517][196]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:525][197]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:533][198]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:542][199]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:550][200]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:558][201]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:567][202]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:575][203]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:583][204]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:591][205]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:600][206]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:608][207]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:616][208]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:625][209]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:633][210]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:641][211]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:650][212]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:658][213]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:666][214]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:675][215]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:683][216]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:692][217]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:700][218]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:708][219]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:717][220]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:725][221]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:733][222]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:742][223]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:750][224]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:758][225]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:767][226]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:775][227]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:783][228]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:792][229]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:800][230]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:808][231]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:816][232]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:824][233]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:833][234]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:841][235]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:849][236]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:858][237]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:866][238]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:874][239]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:883][240]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:891][241]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:900][242]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:908][243]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Voce ganhou
+[2023.12.01-01.28.19:949][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.01-01.28.19:949][243]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.01-01.28.19:949][243]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.01-01.28.19:949][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.01-01.28.19:949][243]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.12.01-01.28.19:952][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.01-01.28.19:956][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.01-01.28.19:967][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.01-01.28.19:967][243]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2023.12.01-01.28.19:967][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.12.01-01.28.19:969][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.12.01-01.28.19:975][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.12.01-01.28.20:019][244]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.12.01-01.30.23:485][813]BlueprintLog: New page: Compile BP_ThirdPersonGameMode
+[2023.12.01-01.30.23:507][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.12.01-01.30.26:081][117]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.01-01.30.26:086][117]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.01-01.30.26:086][117]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.12.01-01.30.26:088][117]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 44 ms)
+[2023.12.01-01.30.26:088][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.01-01.30.26:088][117]PIE: New page: PIE session: ThirdPersonMap (30 de nov de 2023 19:30:26)
+[2023.12.01-01.30.26:118][117]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.01-01.30.26:122][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003938s)
+[2023.12.01-01.30.26:122][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003969s)
+[2023.12.01-01.30.26:132][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.12.01-01.30.26:135][117]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.01-01.30.26:135][117]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.01-01.30.26:135][117]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.12.01-01.30.26:135][117]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.01-01.30.26:135][117]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.01-01.30.26:135][117]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.01-01.30.26:135][117]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.01-01.30.26:136][117]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.12.01-01.30.26:136][117]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 86 ms)
+[2023.12.01-01.30.26:136][117]LogPlayLevel: PIE: World Init took: (0.002007s)
+[2023.12.01-01.30.26:137][117]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.12.01-01.30.26:137][117]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.01-01.30.26:137][117]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.01-01.30.26:137][117]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.01-01.30.26:137][117]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.01-01.30.26:137][117]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.01-01.30.26:137][117]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.01-01.30.26:137][117]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.01-01.30.26:137][117]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.01-01.30.26:137][117]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.01-01.30.26:137][117]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.01-01.30.26:137][117]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.01-01.30.26:138][117]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.01-01.30.26:159][117]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek High Definition Audio)
+[2023.12.01-01.30.26:159][117]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.01-01.30.26:159][117]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.01-01.30.26:159][117]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.01-01.30.26:160][117]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.12.01-01.30.26:160][117]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=21
+[2023.12.01-01.30.26:161][117]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.12.01-01.30.26:161][117]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.12.01-01.30.26:161][117]LogInit: FAudioDevice initialized with ID 21.
+[2023.12.01-01.30.26:161][117]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonMap'.
+[2023.12.01-01.30.26:161][117]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2023.12.01-01.30.26:163][117]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.12.01-01.30.26:165][117]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.11.30-22.30.26
+[2023.12.01-01.30.26:165][117]LogWorld: Bringing up level for play took: 0.001861
+[2023.12.01-01.30.26:166][117]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.12.01-01.30.26:169][117]PIE: Server logged in
+[2023.12.01-01.30.26:170][117]PIE: Play in editor total start time 0,083 seconds.
+[2023.12.01-01.30.36:158][313]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.12.01-01.30.36:160][313]LogLoad: LoadMap: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.12.01-01.30.36:160][313]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.01-01.30.36:161][313]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.01-01.30.36:162][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.01-01.30.36:162][313]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.12.01-01.30.36:200][313]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.01-01.30.36:202][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.12.01-01.30.36:211][313]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.01-01.30.36:215][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003811s)
+[2023.12.01-01.30.36:215][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003847s)
+[2023.12.01-01.30.36:215][313]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonMap'.
+[2023.12.01-01.30.36:215][313]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.01-01.30.36:215][313]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.01-01.30.36:215][313]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.12.01-01.30.36:216][313]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.01-01.30.36:216][313]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.01-01.30.36:216][313]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.01-01.30.36:216][313]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.01-01.30.36:217][313]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.12.01-01.30.36:217][313]LogWorldPartition: Display: WorldPartition initialize took 969 us (total: 87 ms)
+[2023.12.01-01.30.36:217][313]LogPlayLevel: PIE: World Init took: (0.001723s)
+[2023.12.01-01.30.36:217][313]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.12.01-01.30.36:220][313]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.11.30-22.30.36
+[2023.12.01-01.30.36:220][313]LogWorld: Bringing up level for play took: 0.002822
+[2023.12.01-01.30.36:225][313]LogLoad: Took 0.064703 seconds to LoadMap(/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap)
+[2023.12.01-01.30.45:530][427]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.12.01-01.30.45:530][427]LogLoad: LoadMap: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.12.01-01.30.45:530][427]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.01-01.30.45:530][427]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.01-01.30.45:531][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.01-01.30.45:531][427]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.12.01-01.30.45:572][427]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.01-01.30.45:574][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.12.01-01.30.45:576][427]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.01-01.30.45:580][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003924s)
+[2023.12.01-01.30.45:580][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003961s)
+[2023.12.01-01.30.45:580][427]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonMap'.
+[2023.12.01-01.30.45:580][427]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.01-01.30.45:580][427]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.01-01.30.45:580][427]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.12.01-01.30.45:581][427]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.01-01.30.45:581][427]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.01-01.30.45:581][427]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.01-01.30.45:581][427]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.01-01.30.45:582][427]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.12.01-01.30.45:582][427]LogWorldPartition: Display: WorldPartition initialize took 968 us (total: 88 ms)
+[2023.12.01-01.30.45:582][427]LogPlayLevel: PIE: World Init took: (0.001711s)
+[2023.12.01-01.30.45:582][427]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.12.01-01.30.45:583][427]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.11.30-22.30.45
+[2023.12.01-01.30.45:583][427]LogWorld: Bringing up level for play took: 0.001231
+[2023.12.01-01.30.45:586][427]LogLoad: Took 0.056223 seconds to LoadMap(/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap)
+[2023.12.01-01.30.51:509][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.01-01.30.51:509][131]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.01-01.30.51:509][131]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.01-01.30.51:510][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.01-01.30.51:510][131]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.12.01-01.30.51:513][131]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.01-01.30.51:516][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.01-01.30.51:528][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.01-01.30.51:528][131]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2023.12.01-01.30.51:528][131]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.12.01-01.30.51:530][131]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.12.01-01.30.51:535][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.12.01-01.30.51:613][133]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.12.01-01.31.14:562][272]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2023.12.01-01.31.14:562][272]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
