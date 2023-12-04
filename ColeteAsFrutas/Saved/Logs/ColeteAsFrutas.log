@@ -1447,3 +1447,563 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.04-23.05.37:254][311]LogPlayLevel: Display: Destroying online subsystem :Context_2
 [2023.12.04-23.05.41:592][831]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
 [2023.12.04-23.05.41:592][831]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2023.12.04-23.06.02:011][326]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.12.04-23.06.07:246][916]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-23.06.18:446][202]LogDerivedDataCache: C:/Users/l-0-l/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.291 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2623 files in 3782 folders with total size 99 MiB.
+[2023.12.04-23.08.33:325][366]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/StarterContent/Materials/M_AssetPlatform.M_AssetPlatform
+[2023.12.04-23.08.33:412][366]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-23.08.33:412][366]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-23.08.33:741][366]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.04-23.08.33:741][366]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.04-23.08.33:741][366]MaterialEditorStats: Shader Count: 0
+[2023.12.04-23.08.33:758][366]LogSlate: Took 0.007854 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.12.04-23.08.33:767][366]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2023.12.04-23.08.34:197][390]LogShaderCompilers: Display: ================================================
+[2023.12.04-23.08.34:197][390]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.04-23.08.34:197][390]LogShaderCompilers: Display: Total job queries 20, among them cache hits 0 (0.00%)
+[2023.12.04-23.08.34:197][390]LogShaderCompilers: Display: Tracking 17 distinct input hashes that result in 14 distinct outputs (82.35%)
+[2023.12.04-23.08.34:197][390]LogShaderCompilers: Display: RAM used: 418,43 KiB of 819,20 MiB budget. Usage: 0.05%
+[2023.12.04-23.08.34:197][390]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.04-23.08.34:197][390]LogShaderCompilers: Display: Shaders Compiled: 17
+[2023.12.04-23.08.34:197][390]LogShaderCompilers: Display: Jobs assigned 20, completed 17 (85.00%)
+[2023.12.04-23.08.34:197][390]LogShaderCompilers: Display: Average time worker was idle: 45.54 s
+[2023.12.04-23.08.34:197][390]LogShaderCompilers: Display: Time job spent in pending queue: average 0.60 s, longest 1.50 s
+[2023.12.04-23.08.34:197][390]LogShaderCompilers: Display: Job execution time: average 0.80 s, max 1.42 s
+[2023.12.04-23.08.34:197][390]LogShaderCompilers: Display: Job life time (pending + execution): average 1.49 s, max 1.81
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display: Shader code size: average 41,94 KiB, min 29,613 KiB, max 61,465 KiB
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.22 s
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display: Jobs were issued in 20 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display: Average processing rate: 7.65 jobs/sec
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display: Total thread time: 5,088 s
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display: Total thread preprocess time: 0,55 s
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display: Percentage time preprocessing: 10.82%
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display: Effective parallelization: 2.29 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.75% of total time (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 7.38% of total time (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 7.15% of total time (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 6.96% of total time (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.90% of total time (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2023.12.04-23.08.34:198][390]LogShaderCompilers: Display: ================================================
+[2023.12.04-23.08.34:326][402]MaterialEditorStats: Base pass shader: 189 instructions
+[2023.12.04-23.08.34:326][402]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.04-23.08.34:326][402]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.04-23.08.34:326][402]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.04-23.08.34:326][402]MaterialEditorStats: Shader Count: 4
+[2023.12.04-23.08.57:124][423]LogSlate: Window 'M_AssetPlatform' being destroyed
+[2023.12.04-23.08.57:170][423]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.08.57:170][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.09.06:307][422]Cmd: DUPLICATE
+[2023.12.04-23.09.06:307][422]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.09.06:477][428]Cmd: DUPLICATE
+[2023.12.04-23.09.06:477][428]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.09.10:179][801]Cmd: TRANSACTION UNDO
+[2023.12.04-23.09.10:179][801]LogEditorTransaction: Undo Move Elements
+[2023.12.04-23.09.11:011][856]Cmd: TRANSACTION UNDO
+[2023.12.04-23.09.11:011][856]LogEditorTransaction: Undo Duplicate Elements
+[2023.12.04-23.09.12:127][982]Cmd: TRANSACTION UNDO
+[2023.12.04-23.09.12:127][982]LogEditorTransaction: Undo Duplicate Elements
+[2023.12.04-23.09.13:712][162]Cmd: DUPLICATE
+[2023.12.04-23.09.13:712][162]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.09.26:078][414]Cmd: DUPLICATE
+[2023.12.04-23.09.26:078][414]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.09.28:015][604]Cmd: DUPLICATE
+[2023.12.04-23.09.28:015][604]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.09.30:097][799]Cmd: DUPLICATE
+[2023.12.04-23.09.30:097][799]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.10.13:076][ 31]Cmd: DUPLICATE
+[2023.12.04-23.10.13:076][ 31]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.10.39:853][598]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.04-23.10.39:859][598]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.04-23.10.39:859][598]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.12.04-23.10.39:860][598]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 4 ms)
+[2023.12.04-23.10.39:861][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.10.39:861][598]PIE: New page: PIE session: ThirdPersonMap (4 de dez de 2023 17:10:39)
+[2023.12.04-23.10.39:890][598]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.04-23.10.39:894][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004156s)
+[2023.12.04-23.10.39:894][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004184s)
+[2023.12.04-23.10.39:900][598]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.12.04-23.10.39:902][598]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-23.10.39:902][598]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-23.10.39:902][598]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.12.04-23.10.39:902][598]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.04-23.10.39:902][598]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.04-23.10.39:902][598]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.04-23.10.39:902][598]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.04-23.10.39:904][598]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.12.04-23.10.39:904][598]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 466 ms)
+[2023.12.04-23.10.39:904][598]LogPlayLevel: PIE: World Init took: (0.001902s)
+[2023.12.04-23.10.39:904][598]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.12.04-23.10.39:904][598]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.10.39:904][598]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.10.39:904][598]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.10.39:904][598]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.10.39:904][598]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.04-23.10.39:904][598]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.10.39:904][598]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.04-23.10.39:904][598]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.10.39:904][598]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.10.39:904][598]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.10.39:904][598]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.10.39:906][598]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.04-23.10.39:926][598]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek High Definition Audio)
+[2023.12.04-23.10.39:927][598]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.10.39:927][598]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.10.39:927][598]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.10.39:927][598]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.12.04-23.10.39:927][598]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=3
+[2023.12.04-23.10.39:928][598]LogInit: FAudioDevice initialized with ID 3.
+[2023.12.04-23.10.39:928][598]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.12.04-23.10.39:928][598]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.12.04-23.10.39:928][598]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2023.12.04-23.10.39:928][598]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.12.04-23.10.39:930][598]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.12.04-23.10.39:932][598]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.12.04-20.10.39
+[2023.12.04-23.10.39:932][598]LogWorld: Bringing up level for play took: 0.001852
+[2023.12.04-23.10.39:934][598]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.12.04-23.10.39:937][598]PIE: Server logged in
+[2023.12.04-23.10.39:937][598]PIE: Play in editor total start time 0,079 seconds.
+[2023.12.04-23.10.51:252][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.10.51:252][949]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.04-23.10.51:252][949]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.10.51:252][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.10.51:252][949]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.12.04-23.10.51:254][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.10.51:256][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.10.51:260][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.10.51:260][949]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.12.04-23.10.51:260][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.12.04-23.10.51:261][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.12.04-23.10.51:267][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.12.04-23.10.51:329][950]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.12.04-23.11.23:884][350]Cmd: DUPLICATE
+[2023.12.04-23.11.23:884][350]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.11.44:292][620]Cmd: DUPLICATE
+[2023.12.04-23.11.44:292][620]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.11.46:970][930]Cmd: DUPLICATE
+[2023.12.04-23.11.46:970][930]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.11.49:609][236]Cmd: DUPLICATE
+[2023.12.04-23.11.49:610][236]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.11.51:444][445]Cmd: DUPLICATE
+[2023.12.04-23.11.51:445][445]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.11.55:286][869]Cmd: DUPLICATE
+[2023.12.04-23.11.55:286][869]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.12.00:122][386]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-23.12.00:153][386]LogPackageLocalizationCache: Processed 46 localized package path(s) for 2 prioritized culture(s) in 0.006223 seconds
+[2023.12.04-23.12.00:155][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR
+[2023.12.04-23.12.00:156][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/5PI42YRDC8HSSG6BVV2GRR28E7478D431BF00A884ACFAE85474BDA.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR.uasset'
+[2023.12.04-23.12.00:158][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96
+[2023.12.04-23.12.00:159][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/IM858T68EBXCBX1T2FNR96C0392FE241434334763411AD2B5878CA.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96.uasset'
+[2023.12.04-23.12.00:161][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06
+[2023.12.04-23.12.00:161][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/CO9MG7REJF8N8AQFYRCI06D24588F5442C99C99D47DBB8643584CC.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06.uasset'
+[2023.12.04-23.12.00:163][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/WM/895ITCKP031PVQI2R4UTO3
+[2023.12.04-23.12.00:164][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/895ITCKP031PVQI2R4UTO31C11EE9749128DA81CA85F8E93C2477D.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/WM/895ITCKP031PVQI2R4UTO3.uasset'
+[2023.12.04-23.12.00:166][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/GO/NJMXUCRKP4YIA1R5OGZJBY
+[2023.12.04-23.12.00:167][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/NJMXUCRKP4YIA1R5OGZJBY421E1D264560A083C1FB18B1634053FE.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/GO/NJMXUCRKP4YIA1R5OGZJBY.uasset'
+[2023.12.04-23.12.00:169][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P
+[2023.12.04-23.12.00:169][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/OTJMGDDXDV5TI7982YKZ5PDD13B317496E6F51D45BE7A00CBA573C.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P.uasset'
+[2023.12.04-23.12.00:171][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO
+[2023.12.04-23.12.00:172][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/9VVR39MG0K7W5GQIEFE7SO4405C51149F346AC52D72F83119520FD.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO.uasset'
+[2023.12.04-23.12.00:174][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6
+[2023.12.04-23.12.00:174][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/NG2R9BPZVA7ZDN0Z4VSTG6E28BF0F54CF28FAE0556CE89D3EB411E.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset'
+[2023.12.04-23.12.00:176][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C
+[2023.12.04-23.12.00:177][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/6B9RJI3FDPCETRKXUXCQ4CCC7793BE48BA13A49E423BA217B94E3A.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C.uasset'
+[2023.12.04-23.12.00:179][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL
+[2023.12.04-23.12.00:179][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/H8YL2PPHZPBTI74SUD0RNL350E42624C52601AC03BED95FB53F877.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL.uasset'
+[2023.12.04-23.12.00:181][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61
+[2023.12.04-23.12.00:182][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/Q7Y1URWWFS0TXGWUTO3S61469B117F41A18492808EB2BA9B9C70FA.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61.uasset'
+[2023.12.04-23.12.00:184][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y
+[2023.12.04-23.12.00:185][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/9BWDWCNL7OZT2HTML9LK1Y96ACD1624210CB0A7301D0A91F4C2A4C.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y.uasset'
+[2023.12.04-23.12.00:187][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN
+[2023.12.04-23.12.00:187][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/8RB55FM1HBEUVO4IOQC4YN7017EE2B4DD5430A32CFD1BF63E03FD7.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN.uasset'
+[2023.12.04-23.12.00:189][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F
+[2023.12.04-23.12.00:190][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/CQR16QFDKKEYP53M51TV4F0F3583264B5A9141CB03638D7B2C5CE8.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F.uasset'
+[2023.12.04-23.12.00:192][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR
+[2023.12.04-23.12.00:192][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/NMHOKL5LGQDOAAG00FUMZR4CD3D476465865FC401B6EA8B217472F.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR.uasset'
+[2023.12.04-23.12.00:194][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/CV/2ICRFLHC22CYX99TI0VU3C
+[2023.12.04-23.12.00:194][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/2ICRFLHC22CYX99TI0VU3C9C7253D44FF8E07CA3859C9C3AFAB99B.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/CV/2ICRFLHC22CYX99TI0VU3C.uasset'
+[2023.12.04-23.12.00:196][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QX/LX6VUI729Y8TVUZY7NNVWX
+[2023.12.04-23.12.00:196][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/LX6VUI729Y8TVUZY7NNVWX3B24F62A4DF62D3CA13DBB8A6BEEBB80.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QX/LX6VUI729Y8TVUZY7NNVWX.uasset'
+[2023.12.04-23.12.00:198][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/AS/6T8BH1S2F8PMMUJH5E3R79
+[2023.12.04-23.12.00:198][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/6T8BH1S2F8PMMUJH5E3R79E3B466ED4342F22EB31101BD3CB140A7.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/AS/6T8BH1S2F8PMMUJH5E3R79.uasset'
+[2023.12.04-23.12.00:200][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/50/QTTHSLUL77WS40ETUKRRMG
+[2023.12.04-23.12.00:200][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/QTTHSLUL77WS40ETUKRRMGA9B806D04FE0D822C984918CB026F83B.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/50/QTTHSLUL77WS40ETUKRRMG.uasset'
+[2023.12.04-23.12.00:201][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/01/8ZLVNJEFM91Z7NLB4NR4I2
+[2023.12.04-23.12.00:201][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/8ZLVNJEFM91Z7NLB4NR4I20F51E14E48BB2DA2EBC84886124C36B2.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/01/8ZLVNJEFM91Z7NLB4NR4I2.uasset'
+[2023.12.04-23.12.00:203][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/2G/106NFF40YRCZ72SARUI5LQ
+[2023.12.04-23.12.00:203][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/106NFF40YRCZ72SARUI5LQADCA5C95450FADF0553938869B8B6830.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/2G/106NFF40YRCZ72SARUI5LQ.uasset'
+[2023.12.04-23.12.00:205][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/LQ/RIRXOSMFY555EM1JQR6LFC
+[2023.12.04-23.12.00:205][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/RIRXOSMFY555EM1JQR6LFCCB2C98624182B157F153158EE39E3CB7.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/LQ/RIRXOSMFY555EM1JQR6LFC.uasset'
+[2023.12.04-23.12.00:206][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/KZ/BGGWGJEIKLUSAEC89W24KC
+[2023.12.04-23.12.00:206][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/BGGWGJEIKLUSAEC89W24KC8B820C83445775CA6143FA8F659F4F00.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/KZ/BGGWGJEIKLUSAEC89W24KC.uasset'
+[2023.12.04-23.12.00:208][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/OG/QKB9GGAGIDRLBMSIIGA283
+[2023.12.04-23.12.00:208][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/QKB9GGAGIDRLBMSIIGA283EE6FBE504F1491D8DABF55BD62958FF6.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/OG/QKB9GGAGIDRLBMSIIGA283.uasset'
+[2023.12.04-23.12.00:210][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/R4/MJY1TWMXGUZLUS5X3GO6H7
+[2023.12.04-23.12.00:210][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/MJY1TWMXGUZLUS5X3GO6H74CE1BDC544B77FFC7C5A6CAB613D3BD1.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/R4/MJY1TWMXGUZLUS5X3GO6H7.uasset'
+[2023.12.04-23.12.00:211][386]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/67/ZY3KI9YAWYMF6V4C0A5RLM
+[2023.12.04-23.12.00:212][386]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/ZY3KI9YAWYMF6V4C0A5RLM507E0FFC4973F3F3FC9BB4A37BA7BEE8.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/67/ZY3KI9YAWYMF6V4C0A5RLM.uasset'
+[2023.12.04-23.12.00:219][386]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms
+[2023.12.04-23.12.00:224][386]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.04-23.12.00:224][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_15
+[2023.12.04-23.12.00:224][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_14
+[2023.12.04-23.12.00:224][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_19
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCB22C101_2114804953
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCB22C101_1888017952
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_25
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_1
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_9
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_12
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_8
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_13
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_21
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_20
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_7
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_1880894828
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_1923873829
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_1864509825
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_1876875826
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_1878813827
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_1994681830
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_2015090831
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_2017768832
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_2020407833
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_2022242834
+[2023.12.04-23.12.00:225][386]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_2026083835
+[2023.12.04-23.12.06:563][ 10]Cmd: DUPLICATE
+[2023.12.04-23.12.06:564][ 10]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.12.13:879][806]Cmd: DUPLICATE
+[2023.12.04-23.12.13:879][806]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.12.17:855][248]Cmd: DUPLICATE
+[2023.12.04-23.12.17:855][248]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.12.29:079][486]Cmd: DUPLICATE
+[2023.12.04-23.12.29:079][486]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.12.52:943][ 69]Cmd: DUPLICATE
+[2023.12.04-23.12.52:943][ 69]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.12.55:699][349]Cmd: DUPLICATE
+[2023.12.04-23.12.55:699][349]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.13.01:751][  1]Cmd: DUPLICATE
+[2023.12.04-23.13.01:751][  1]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.13.38:486][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-23.13.38:509][ 55]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/KN/O9EY0SH8R37YJG8Z4XUK8G
+[2023.12.04-23.13.38:509][ 55]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/O9EY0SH8R37YJG8Z4XUK8G80A2B0BD48A418731B5C36B550C1F791.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/KN/O9EY0SH8R37YJG8Z4XUK8G.uasset'
+[2023.12.04-23.13.38:511][ 55]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/02/FXE0C6OL258IYP9L29OIKH
+[2023.12.04-23.13.38:511][ 55]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/FXE0C6OL258IYP9L29OIKHFA7783C940611D263D8448B102F2195A.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/02/FXE0C6OL258IYP9L29OIKH.uasset'
+[2023.12.04-23.13.38:513][ 55]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/8F/BJEFOCKIDVSGLCZIP2NAKZ
+[2023.12.04-23.13.38:513][ 55]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/BJEFOCKIDVSGLCZIP2NAKZF70B5A7F4E15D41B36824AA22BB25790.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/8F/BJEFOCKIDVSGLCZIP2NAKZ.uasset'
+[2023.12.04-23.13.38:515][ 55]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/W7/3YSWC6H2DS32DH64TSLXWO
+[2023.12.04-23.13.38:515][ 55]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/3YSWC6H2DS32DH64TSLXWO8975786A4EBD9EF508383392508AF90D.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/W7/3YSWC6H2DS32DH64TSLXWO.uasset'
+[2023.12.04-23.13.38:517][ 55]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/RR/0ITWI2LK08DBS0FHASK8LZ
+[2023.12.04-23.13.38:517][ 55]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/0ITWI2LK08DBS0FHASK8LZ4D92E90542E7AA5C95558CBED2BB56C7.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/RR/0ITWI2LK08DBS0FHASK8LZ.uasset'
+[2023.12.04-23.13.38:518][ 55]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/4P/68C87PEX9OFUJ1BZYXU6ZT
+[2023.12.04-23.13.38:519][ 55]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/68C87PEX9OFUJ1BZYXU6ZTBD9BA3F34542417B499B7BBCD3AB2B3D.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/4P/68C87PEX9OFUJ1BZYXU6ZT.uasset'
+[2023.12.04-23.13.38:520][ 55]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/31/MKMUOQCBQ0NTM7UT9HYPTG
+[2023.12.04-23.13.38:520][ 55]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/MKMUOQCBQ0NTM7UT9HYPTG6813F4584B61DDF0B9A1B3B57B46FD9E.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/31/MKMUOQCBQ0NTM7UT9HYPTG.uasset'
+[2023.12.04-23.13.38:522][ 55]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/5G/SR6FJ41UJRQLM3MOAMXR9L
+[2023.12.04-23.13.38:522][ 55]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/SR6FJ41UJRQLM3MOAMXR9LF568065E4062183B1A3ECA82F6B79EA9.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/5G/SR6FJ41UJRQLM3MOAMXR9L.uasset'
+[2023.12.04-23.13.38:528][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 139 ms)
+[2023.12.04-23.13.38:530][ 55]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.04-23.13.38:530][ 55]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCB23C101_1179043130
+[2023.12.04-23.13.38:530][ 55]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_2037361836
+[2023.12.04-23.13.38:530][ 55]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_2044677837
+[2023.12.04-23.13.38:530][ 55]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_2048653838
+[2023.12.04-23.13.38:530][ 55]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_2059876839
+[2023.12.04-23.13.38:530][ 55]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_2083741840
+[2023.12.04-23.13.38:530][ 55]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_2086496841
+[2023.12.04-23.13.38:530][ 55]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_2092549842
+[2023.12.04-23.13.44:766][733]Cmd: DUPLICATE
+[2023.12.04-23.13.44:766][733]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.14.07:393][180]Cmd: DUPLICATE
+[2023.12.04-23.14.07:393][180]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.14.31:895][895]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.04-23.14.31:900][895]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.04-23.14.31:900][895]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.12.04-23.14.31:903][895]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 6 ms)
+[2023.12.04-23.14.31:903][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.14.31:903][895]PIE: New page: PIE session: ThirdPersonMap (4 de dez de 2023 17:14:31)
+[2023.12.04-23.14.31:940][895]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.04-23.14.31:945][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004885s)
+[2023.12.04-23.14.31:945][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004914s)
+[2023.12.04-23.14.31:949][895]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.12.04-23.14.31:951][895]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-23.14.31:951][895]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-23.14.31:951][895]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.12.04-23.14.31:952][895]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.04-23.14.31:952][895]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.04-23.14.31:952][895]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.04-23.14.31:952][895]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.04-23.14.31:953][895]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.12.04-23.14.31:953][895]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 468 ms)
+[2023.12.04-23.14.31:953][895]LogPlayLevel: PIE: World Init took: (0.002101s)
+[2023.12.04-23.14.31:953][895]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.12.04-23.14.31:953][895]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.14.31:953][895]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.14.31:953][895]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.14.31:953][895]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.14.31:953][895]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.04-23.14.31:953][895]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.14.31:953][895]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.04-23.14.31:953][895]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.14.31:954][895]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.14.31:954][895]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.14.31:954][895]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.14.31:955][895]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.04-23.14.31:976][895]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek High Definition Audio)
+[2023.12.04-23.14.31:976][895]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.14.31:976][895]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.14.31:976][895]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.14.31:977][895]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.12.04-23.14.31:977][895]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=4
+[2023.12.04-23.14.31:978][895]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.12.04-23.14.31:978][895]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.12.04-23.14.31:978][895]LogInit: FAudioDevice initialized with ID 4.
+[2023.12.04-23.14.31:978][895]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2023.12.04-23.14.31:978][895]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.12.04-23.14.31:980][895]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.12.04-23.14.31:983][895]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.12.04-20.14.31
+[2023.12.04-23.14.31:983][895]LogWorld: Bringing up level for play took: 0.002217
+[2023.12.04-23.14.31:984][895]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2023.12.04-23.14.31:988][895]PIE: Server logged in
+[2023.12.04-23.14.31:989][895]PIE: Play in editor total start time 0,089 seconds.
+[2023.12.04-23.14.57:210][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.14.57:210][915]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.04-23.14.57:210][915]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.14.57:210][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.14.57:210][915]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.12.04-23.14.57:212][915]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.14.57:214][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.14.57:218][915]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.04-23.14.57:218][915]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.12.04-23.14.57:218][915]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.12.04-23.14.57:219][915]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.12.04-23.14.57:222][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.14.57:224][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.12.04-23.14.57:288][916]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.12.04-23.15.13:433][700]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.04-23.15.13:438][700]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.04-23.15.13:438][700]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.12.04-23.15.13:440][700]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 8 ms)
+[2023.12.04-23.15.13:440][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.15.13:440][700]PIE: New page: PIE session: ThirdPersonMap (4 de dez de 2023 17:15:13)
+[2023.12.04-23.15.13:469][700]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.04-23.15.13:474][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004743s)
+[2023.12.04-23.15.13:474][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004769s)
+[2023.12.04-23.15.13:477][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.12.04-23.15.13:479][700]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-23.15.13:479][700]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-23.15.13:479][700]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.12.04-23.15.13:480][700]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.04-23.15.13:480][700]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.04-23.15.13:480][700]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.04-23.15.13:480][700]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.04-23.15.13:481][700]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.12.04-23.15.13:481][700]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 469 ms)
+[2023.12.04-23.15.13:481][700]LogPlayLevel: PIE: World Init took: (0.002079s)
+[2023.12.04-23.15.13:481][700]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.12.04-23.15.13:481][700]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.15.13:481][700]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.15.13:481][700]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.15.13:481][700]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.15.13:481][700]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.04-23.15.13:481][700]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.15.13:481][700]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.04-23.15.13:481][700]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.15.13:481][700]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.15.13:481][700]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.15.13:481][700]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.15.13:483][700]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.04-23.15.13:504][700]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek High Definition Audio)
+[2023.12.04-23.15.13:504][700]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.15.13:504][700]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.15.13:504][700]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.15.13:505][700]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.12.04-23.15.13:505][700]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=5
+[2023.12.04-23.15.13:506][700]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.12.04-23.15.13:506][700]LogInit: FAudioDevice initialized with ID 5.
+[2023.12.04-23.15.13:506][700]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.12.04-23.15.13:506][700]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2023.12.04-23.15.13:506][700]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.12.04-23.15.13:508][700]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.12.04-23.15.13:510][700]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.12.04-20.15.13
+[2023.12.04-23.15.13:510][700]LogWorld: Bringing up level for play took: 0.002251
+[2023.12.04-23.15.13:512][700]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2023.12.04-23.15.13:515][700]PIE: Server logged in
+[2023.12.04-23.15.13:516][700]PIE: Play in editor total start time 0,078 seconds.
+[2023.12.04-23.15.39:660][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.15.39:660][824]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.04-23.15.39:660][824]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.15.39:661][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.15.39:661][824]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.12.04-23.15.39:663][824]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.15.39:665][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.15.39:668][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.15.39:668][824]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.12.04-23.15.39:668][824]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.12.04-23.15.39:670][824]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.12.04-23.15.39:675][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.12.04-23.15.39:736][825]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.12.04-23.15.45:568][455]Cmd: DELETE
+[2023.12.04-23.15.45:569][455]Cmd: ACTOR DELETE
+[2023.12.04-23.15.45:577][455]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-23.15.45:581][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.12.04-23.15.45:583][455]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2023.12.04-23.15.49:429][860]Cmd: DUPLICATE
+[2023.12.04-23.15.49:429][860]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.15.58:689][889]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.04-23.15.58:694][889]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.04-23.15.58:694][889]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.12.04-23.15.58:697][889]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 11 ms)
+[2023.12.04-23.15.58:697][889]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.15.58:697][889]PIE: New page: PIE session: ThirdPersonMap (4 de dez de 2023 17:15:58)
+[2023.12.04-23.15.58:720][889]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.04-23.15.58:725][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004785s)
+[2023.12.04-23.15.58:725][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004812s)
+[2023.12.04-23.15.58:728][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.12.04-23.15.58:731][889]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-23.15.58:731][889]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-23.15.58:731][889]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.12.04-23.15.58:731][889]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.04-23.15.58:731][889]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.04-23.15.58:731][889]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.04-23.15.58:731][889]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.04-23.15.58:733][889]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.12.04-23.15.58:733][889]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 470 ms)
+[2023.12.04-23.15.58:733][889]LogPlayLevel: PIE: World Init took: (0.002106s)
+[2023.12.04-23.15.58:733][889]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.12.04-23.15.58:733][889]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.15.58:733][889]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.15.58:733][889]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.15.58:733][889]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.15.58:733][889]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.04-23.15.58:733][889]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.15.58:733][889]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.04-23.15.58:733][889]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.15.58:733][889]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.15.58:733][889]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.15.58:733][889]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.15.58:735][889]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.04-23.15.58:755][889]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek High Definition Audio)
+[2023.12.04-23.15.58:755][889]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.15.58:755][889]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.15.58:755][889]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.15.58:756][889]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.12.04-23.15.58:756][889]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=6
+[2023.12.04-23.15.58:757][889]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.12.04-23.15.58:757][889]LogInit: FAudioDevice initialized with ID 6.
+[2023.12.04-23.15.58:757][889]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.12.04-23.15.58:757][889]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonMap'.
+[2023.12.04-23.15.58:757][889]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.12.04-23.15.58:759][889]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.12.04-23.15.58:761][889]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.12.04-20.15.58
+[2023.12.04-23.15.58:762][889]LogWorld: Bringing up level for play took: 0.002239
+[2023.12.04-23.15.58:763][889]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.12.04-23.15.58:766][889]PIE: Server logged in
+[2023.12.04-23.15.58:767][889]PIE: Play in editor total start time 0,073 seconds.
+[2023.12.04-23.16.12:900][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.16.12:900][580]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.04-23.16.12:900][580]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.16.12:900][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.16.12:900][580]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.12.04-23.16.12:902][580]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.16.12:904][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.16.12:908][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.16.12:909][580]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.12.04-23.16.12:909][580]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.12.04-23.16.12:910][580]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.12.04-23.16.12:915][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.12.04-23.16.12:977][581]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.12.04-23.16.16:157][941]Cmd: DUPLICATE
+[2023.12.04-23.16.16:157][941]Cmd: ACTOR DUPLICATE
+[2023.12.04-23.16.29:436][427]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.04-23.16.29:441][427]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.04-23.16.29:441][427]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.12.04-23.16.29:443][427]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 13 ms)
+[2023.12.04-23.16.29:444][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.16.29:444][427]PIE: New page: PIE session: ThirdPersonMap (4 de dez de 2023 17:16:29)
+[2023.12.04-23.16.29:479][427]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.04-23.16.29:484][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004820s)
+[2023.12.04-23.16.29:484][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004846s)
+[2023.12.04-23.16.29:487][427]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.12.04-23.16.29:489][427]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-23.16.29:489][427]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-23.16.29:489][427]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.12.04-23.16.29:490][427]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.04-23.16.29:490][427]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.04-23.16.29:490][427]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.04-23.16.29:490][427]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.04-23.16.29:491][427]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.12.04-23.16.29:491][427]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 471 ms)
+[2023.12.04-23.16.29:491][427]LogPlayLevel: PIE: World Init took: (0.002083s)
+[2023.12.04-23.16.29:491][427]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.12.04-23.16.29:491][427]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.16.29:491][427]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.16.29:491][427]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.16.29:491][427]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.16.29:491][427]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.04-23.16.29:491][427]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.16.29:491][427]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.04-23.16.29:491][427]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.16.29:491][427]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.16.29:491][427]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.16.29:491][427]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.16.29:493][427]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.04-23.16.29:514][427]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek High Definition Audio)
+[2023.12.04-23.16.29:514][427]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.16.29:514][427]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.16.29:514][427]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.16.29:514][427]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.12.04-23.16.29:514][427]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=7
+[2023.12.04-23.16.29:516][427]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.12.04-23.16.29:516][427]LogInit: FAudioDevice initialized with ID 7.
+[2023.12.04-23.16.29:516][427]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2023.12.04-23.16.29:516][427]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.12.04-23.16.29:516][427]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.12.04-23.16.29:518][427]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.12.04-23.16.29:520][427]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.12.04-20.16.29
+[2023.12.04-23.16.29:520][427]LogWorld: Bringing up level for play took: 0.002326
+[2023.12.04-23.16.29:522][427]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.12.04-23.16.29:525][427]PIE: Server logged in
+[2023.12.04-23.16.29:525][427]PIE: Play in editor total start time 0,084 seconds.
+[2023.12.04-23.17.06:590][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.17.06:590][870]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.04-23.17.06:590][870]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.17.06:591][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.17.06:591][870]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.12.04-23.17.06:593][870]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.17.06:595][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.17.06:599][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.17.06:599][870]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.12.04-23.17.06:599][870]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.12.04-23.17.06:600][870]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.12.04-23.17.06:605][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.12.04-23.17.06:695][872]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.12.04-23.17.09:989][267]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-23.17.10:014][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.12.04-23.17.10:018][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.12.04-23.17.10:022][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.12.04-23.17.10:024][267]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/31/MKMUOQCBQ0NTM7UT9HYPTG
+[2023.12.04-23.17.10:024][267]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/MKMUOQCBQ0NTM7UT9HYPTG958144BB4B460054ED3850BDE25D57F8.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/31/MKMUOQCBQ0NTM7UT9HYPTG.uasset'
+[2023.12.04-23.17.10:026][267]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/9I/OWZGJ4IU3PAX4WVDE71DTR
+[2023.12.04-23.17.10:026][267]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/OWZGJ4IU3PAX4WVDE71DTR0C09F06842A9E04D8BF07BA458D7CF22.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/9I/OWZGJ4IU3PAX4WVDE71DTR.uasset'
+[2023.12.04-23.17.10:028][267]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/72/21R17T530QTYMG5KOGKZ5C
+[2023.12.04-23.17.10:028][267]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/21R17T530QTYMG5KOGKZ5C5603F5774337D661C66E71851699DED7.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/72/21R17T530QTYMG5KOGKZ5C.uasset'
+[2023.12.04-23.17.10:030][267]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/0A/8UA1HZ13VG6BMDMHVK4F2P
+[2023.12.04-23.17.10:030][267]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/8UA1HZ13VG6BMDMHVK4F2PFE0E1C324D38B1465D4BDA99C33D9CEA.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/0A/8UA1HZ13VG6BMDMHVK4F2P.uasset'
+[2023.12.04-23.17.10:031][267]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/04/6VXIAEA85WUGA3YLXG7HSP
+[2023.12.04-23.17.10:032][267]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/6VXIAEA85WUGA3YLXG7HSP401AA1014406CC88C8CC5EB04FD0B823.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/04/6VXIAEA85WUGA3YLXG7HSP.uasset'
+[2023.12.04-23.17.10:033][267]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/B9/NROWTJXWMQPO02RXJLLHOX
+[2023.12.04-23.17.10:033][267]LogSavePackage: Moving 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Saved/NROWTJXWMQPO02RXJLLHOXDFD6F21642B2608669D8CA878A43D3C7.tmp' to 'C:/Users/l-0-l/Documents/GitHub/UE-ColeteAsFrutas/ColeteAsFrutas/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/B9/NROWTJXWMQPO02RXJLLHOX.uasset'
+[2023.12.04-23.17.10:040][267]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 189 ms)
+[2023.12.04-23.17.10:042][267]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.04-23.17.10:042][267]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_2086496841
+[2023.12.04-23.17.10:042][267]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_2135563843
+[2023.12.04-23.17.10:042][267]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBAFC201_2135565844
+[2023.12.04-23.17.10:042][267]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBB0C201_1084449021
+[2023.12.04-23.17.10:042][267]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBB0C201_1186485022
+[2023.12.04-23.17.10:042][267]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_00E269643BCBB0C201_1213213023
