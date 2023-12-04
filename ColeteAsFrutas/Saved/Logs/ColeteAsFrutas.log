@@ -1363,3 +1363,19 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.04-23.04.58:075][  0]LogPakFile: Initializing PakPlatformFile
 [2023.12.04-23.04.58:079][  0]LogPakFile: Display: Mounted Pak file 'G:/UE_5.3/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
 [2023.12.04-23.04.59:818][  0]LogSlate: External Image Picker: DecompressImage failed
+[2023.12.04-23.04.59:986][  0]LogSlate: Took 0.005018 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.12.04-23.04.59:992][  0]LogSlate: Took 0.004743 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.12.04-23.04.59:997][  0]LogSlate: Took 0.003835 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.12.04-23.05.00:022][  0]LogViewport: Scene viewport resized to 1526x584, mode Windowed.
+[2023.12.04-23.05.00:150][  0]LogSlate: Took 0.014358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.12.04-23.05.00:326][  0]LogStall: Startup...
+[2023.12.04-23.05.00:328][  0]LogStall: Startup complete.
+[2023.12.04-23.05.00:365][  0]LogLoad: (Engine Initialization) Total time: 56.59 seconds
+[2023.12.04-23.05.00:365][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.12.04-23.05.00:439][  0]LogAssetRegistry: AssetRegistryGather time 1.6444s: AssetDataDiscovery 0.7869s, AssetDataGather 0.8190s, StoreResults 0.0385s.
+[2023.12.04-23.05.00:489][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2023.12.04-23.05.00:501][  0]LogContentStreaming: Texture pool size now 400 MB
+[2023.12.04-23.05.00:827][  1]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2023.12.04-23.05.00:830][  1]Running Python start-up script 'G:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.241140 secs
+[2023.12.04-23.05.04:216][ 11]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
